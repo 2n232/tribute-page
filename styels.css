@@ -2,15 +2,6 @@ body {
   background-color: rgb(225, 249, 241);
 }
 
-.negrita {
-  font-weight: 800;
-}
-
-.left {
-  justify-content: flex-end;
-  list-style-type: circle;
-}
-
 p {
   display: flex;
   justify-content: flex-start ;
@@ -27,12 +18,28 @@ p {
   width: 80%;
 }
 
-h1 {
-  display: block;
+h1#title {
+  display: flex;
+  justify-content: center;
+
 }
 
-h1, h2, #img-caption {
+h2 {
+  display: flex;
+  justify-content: center;
+}
+
+#headline {
+  margin: 50px 0;
   text-align: center;
+}
+
+#img-caption {
+  margin: 15px 0 5px 0;
+}
+
+figcaption {
+  display: block;
 }
 
 .main {
@@ -91,7 +98,6 @@ blockquote {
   padding-top: 2rem;
 }
 
-cite {
-  display: flex;
-  justify-content: end;
+li {
+  margin: 16px 0;
 }
