@@ -1,3 +1,7 @@
+body {
+  background-color: rgb(225, 249, 241);
+}
+
 .negrita {
   font-weight: 800;
 }
@@ -23,21 +27,34 @@ p {
   width: 80%;
 }
 
+h1 {
+  display: block;
+}
+
 h1, h2, #img-caption {
   text-align: center;
 }
 
 .main {
-  background-color: rgb(97, 238, 234);
+  background-color: rgb(225, 249, 241);
 }
 
 #img-div {
   justify-content: center;
+  background-color: rgb(97, 238, 234);
 }
 
 img {
   display: block;
-  justify-content: center;
+  padding-top: 2rem;
+  max-width: 100%;
+  height: auto;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+  margin: auto;
 }
 
 #img-caption {
@@ -58,35 +75,23 @@ h4 {
 .title {
   background-color: rgb(225, 249, 241);
 }
- body {
-  background-color: rgb(225, 249, 241);
- }
 
 footer {
 display: flex;
 justify-content: center;
 }
 
-.last-words {
-  margin:auto;
-  padding-top: 2rem;;
-  display: block;
-  justify-content: center;
-  width: 40%;
-}
-
-.words {
-  font-style: italic;
-  justify-content: end;
-}
-
 #tribute-link {
   color: grey;
 }
 
-#image {
-  justify-content: center;
+blockquote {
+  max-width: 40%;
   margin: auto;
-  height: auto;
-  max-width: 100%;
+  padding-top: 2rem;
+}
+
+cite {
+  display: flex;
+  justify-content: end;
 }
